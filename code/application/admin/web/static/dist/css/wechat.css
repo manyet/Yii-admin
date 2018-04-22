@@ -1,0 +1,89 @@
+.wechat-body{
+	padding:10px;
+	background-color: #EBEBEB;
+}
+.direct-chat-info {
+    display: block;
+    margin-bottom: 8px;
+	text-align: center;
+}
+.direct-chat-info span {
+	border-radius: 3px;
+	color: #fff;
+	background: #D4D4D4;
+	padding: 5px;
+    font-size: 12px;
+	line-height: 12px;
+	display: inline-block;
+	
+}
+.direct-chat-img {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+.direct-chat-text {
+    border-radius: 3px;
+    position: relative;
+    padding: 5px 10px;
+    background: #fff;
+/*    border: 1px solid #d2d6de;*/
+    margin: 5px 0 0 50px;
+    color: #444;
+}
+
+.direct-chat-msg, .direct-chat-text {
+    display: block;
+}
+.direct-chat-text:after, .direct-chat-text:before {
+    position: absolute;
+    right: 100%;
+    top: 15px;
+    border: solid transparent;
+    border-right-color: #fff;
+    content: ' ';
+    height: 0;
+    width: 0;
+    pointer-events: none;
+}
+.direct-chat-text:before {
+    border-width:  6px;
+    margin-top: -6px;
+}
+.direct-chat-text:after {
+    border-width: 5px;
+    margin-top: -5px;
+}
+
+
+.wechat-list-view{list-style: none; padding: 0 10px; margin: 0; border: 1px solid #dddddd; background: #fff;border-radius:3px}
+.wechat-list-view li:first-child{border-top: none;}
+.wechat-list-view li{border-top: 1px solid #dddddd; padding: 10px 0; clear: both; position: relative}
+.wechat-list-view li:after{clear: both; content: ' ';display: table}
+.wechat-list-text{position: absolute;bottom: 10px;left: 0;right: 0;background: rgba(0,0,0,.5);color:#fff;padding:8px}
+.wechat-list-img{background-position: center center;background-repeat: no-repeat;background-size: cover;background-color: #e0e0e0;}
+.wechat-list-img img{height: 100%; width: 100%;}
+
+
+
+.wechat-news-view{padding:0;border-radius: 3px;list-style: none; margin: 0; border: 1px solid #dddddd; background: #fff}
+.wechat-news-view li:first-child a{display:block; padding: 10px 10px 5px;}
+.wechat-news-view .wechat-news-li:first-child{border-top: none;}
+.wechat-news-view .wechat-news-li{clear: both; position: relative; padding: 0 10px;}
+.wechat-news-view .wechat-news-li:after,.wechat-news-view .wechat-news-li a:after{clear: both; content: ' ';display: table}
+.wechat-news-view .wechat-news-li a{text-decoration: none;display:block; padding: 10px 0; border-top: 1px solid #dddddd;}
+.wechat-news-view li:hover,.wechat-news-view li:focus{background:#f2f2f2;}
+.wechat-news-text{top:50%; transform: translate(0,-50%);position: absolute;color:#000;font-size: 15px;margin-right: 70px;word-break: break-all; text-overflow: ellipsis;overflow: hidden; display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;}
+.wechat-news-img{float: right; width: 50px; height: 50px;overflow: hidden;position:relative;background:#e0e0e0}
+.wechat-news-img img{position:absolute;}
+.wechat-news-li-title{ width: 100%; position:absolute; bottom: 0;left: 0; background: rgba(0,0,0,.5); color: #fff; padding: 8px; line-height: 16px;}
+
+
+
+.wechat-single-view a:focus,.wechat-single-view a:hover{background:#f2f2f2;text-decoration: none;}
+.wechat-single-view a{padding:8px;display:block;}
+.wechat-news-single-top{font-size: 16px;color:#000}
+.wechat-news-single-p{color:#959595;margin-top:5px;font-size: 12px;word-break: break-all;}
+.wechat-news-single-img{width: 100%; background:#e0e0e0; position:relative; overflow: hidden;}
+.wechat-news-single-img img{position: absolute;}
+.wechat-news-single-span{color:#000}

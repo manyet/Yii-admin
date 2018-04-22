@@ -1,0 +1,34 @@
+.switch:after{display: block;position: absolute;right: 7px;height: 100%;content:'OFF';line-height: 24px;font-size: 10px;font-weight: bold}
+.switch:checked:after{left: 8px;content:'ON';color: #FFF;}
+/* Switch 开关 */
+.switch { margin:0 !important; width: 60px; height: 26px; position: relative; border: 1px solid #dfdfdf; background-color: #fdfdfd; box-shadow: #dfdfdf 0 0 0 0 inset; border-radius: 20px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; background-clip: content-box; display: inline-block; -webkit-appearance: none; user-select: none; }
+input.switch:focus { outline: none; }
+
+.switch:before { content: ''; width: 24px; height: 24px; position: absolute; top: 0px; left: 0; border-radius: 20px; border-top-left-radius: 20px; border-top-right-radius: 20px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px; background-color: #fff; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); }
+.switch:checked { border-color: #64bd63; box-shadow: #64bd63 0 0 0 16px inset; background-color: #64bd63; }
+.switch:checked:before { left: 34px; }
+
+.switch.switch-animbg { transition: background-color ease 0.4s; }
+.switch.switch-animbg:before { transition: left 0.3s; }
+.switch.switch-animbg:checked { box-shadow: #dfdfdf 0 0 0 0 inset; background-color: #64bd63; transition: border-color 0.4s, background-color ease 0.4s; }
+.switch.switch-animbg:checked:before { transition: left 0.3s; }
+.switch.switch-anim { transition: border cubic-bezier(0, 0, 0, 1) 0.4s, box-shadow cubic-bezier(0, 0, 0, 1) 0.4s; }
+.switch.switch-anim:before { transition: left 0.3s; }
+.switch.switch-anim:checked { box-shadow: #64bd63 0 0 0 16px inset; background-color: #64bd63; transition: border ease 0.4s, box-shadow ease 0.4s, background-color ease 1.2s; }
+.switch.switch-anim:checked:before { transition: left 0.3s; }
+/* 开关颜色 */
+.switch-primary:checked{ border-color: #dd4b39; box-shadow: #dd4b39 0 0 0 16px inset; background-color: #dd4b39;}
+.switch-primary.switch-animbg:checked { box-shadow: #dfdfdf 0 0 0 0 inset; background-color: #dd4b39; }
+.switch-primary.switch-anim:checked { box-shadow: #dd4b39 0 0 0 16px inset; background-color: #dd4b39;}
+
+.switch-info:checked{ border-color: #00c0ef; box-shadow: #00c0ef 0 0 0 16px inset; background-color: #00c0ef;}
+.switch-info.switch-animbg:checked { box-shadow: #dfdfdf 0 0 0 0 inset; background-color: #00c0ef; }
+.switch-info.switch-anim:checked { box-shadow: #00c0ef 0 0 0 16px inset; background-color: #00c0ef;}
+
+.switch-success:checked{ border-color: #00a65a; box-shadow: #00a65a 0 0 0 16px inset; background-color: #00a65a;}
+.switch-success.switch-animbg:checked { box-shadow: #dfdfdf 0 0 0 0 inset; background-color: #00a65a; }
+.switch-success.switch-anim:checked { box-shadow: #00a65a 0 0 0 16px inset; background-color: #00a65a;}
+
+.switch-danger:checked{ border-color: #dd4b39; box-shadow: #dd4b39 0 0 0 16px inset; background-color: #dd4b39;}
+.switch-danger.switch-animbg:checked { box-shadow: #dfdfdf 0 0 0 0 inset; background-color: #dd4b39; }
+.switch-danger.switch-anim:checked { box-shadow: #dd4b39 0 0 0 16px inset; background-color: #dd4b39;}

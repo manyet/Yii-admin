@@ -1,0 +1,145 @@
+.box-header .box-title{margin-top:3px}
+
+/* 分割线 */
+.text-explode {
+	width:1px;
+	height:10px;
+	display: inline-block;
+	background: #CCC !important;
+    margin: 0px 8px !important;
+}
+.text-explode:last-child {
+    display: none;
+}
+
+/* Pace */
+.pace .pace-activity{right:200px}
+@media (max-width: 767px){.pace .pace-activity{right:15px;}}
+
+/* 加载提示 */
+.loading {
+  display: block;
+  position: absolute;
+  left:50%;
+  top:50%;
+  z-index: 2000;
+  margin-top: -30px;
+  margin-left: -30px;
+  width: 60px;
+  height: 60px;
+  border: solid 2px transparent;
+  border-top-color: #dd4b39;
+  border-left-color: #dd4b39;
+  border-radius: 50%;
+  -webkit-animation: pace-spinner 400ms linear infinite;
+  -moz-animation: pace-spinner 400ms linear infinite;
+  -ms-animation: pace-spinner 400ms linear infinite;
+  -o-animation: pace-spinner 400ms linear infinite;
+  animation: pace-spinner 400ms linear infinite;
+}
+
+@-webkit-keyframes pace-spinner {
+  0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-moz-keyframes pace-spinner {
+  0% { -moz-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -moz-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-o-keyframes pace-spinner {
+  0% { -o-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -o-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-ms-keyframes pace-spinner {
+  0% { -ms-transform: rotate(0deg); transform: rotate(0deg); }
+  100% { -ms-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@keyframes pace-spinner {
+  0% { transform: rotate(0deg); transform: rotate(0deg); }
+  100% { transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+.loader{margin:0 auto;width:60px;position:absolute;display:block;left:0;right:0;z-index:1;-webkit-transform:translate3d(0,-50%,0);transform:translate3d(0,-50%,0);text-align:center;top:50%}.loader:before{content:"";display:block;padding-top:100%}.circular{-webkit-animation:rotate 2s linear infinite;animation:rotate 2s linear infinite;height:100%;-webkit-transform-origin:center center;transform-origin:center center;width:100%;position:absolute;top:0;bottom:0;left:0;right:0;margin:auto}
+.path{stroke-dasharray:1,200;stroke-dashoffset:0;-webkit-animation:dash 1.5s ease-in-out infinite,color 2s ease-in-out infinite;animation:dash 1.5s ease-in-out infinite,color 2s ease-in-out infinite;stroke-linecap:round}@-webkit-keyframes rotate{to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes rotate{to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@-webkit-keyframes dash{0%{stroke-dasharray:1,200;stroke-dashoffset:0}50%{stroke-dasharray:89,200;stroke-dashoffset:-35px}to{stroke-dasharray:89,200;stroke-dashoffset:-124px}}@keyframes dash{0%{stroke-dasharray:1,200;stroke-dashoffset:0}50%{stroke-dasharray:89,200;stroke-dashoffset:-35px}to{stroke-dasharray:89,200;stroke-dashoffset:-124px}}@-webkit-keyframes color{0%,to{stroke:#9c27b0}50%{stroke:#ff9800}to{stroke:#9c27b0}}@keyframes color{0%,to{stroke:#9c27b0}50%{stroke:#ff9800}to{stroke:#9c27b0}}
+
+/* 操作列链接 */
+.table-operation{white-space:nowrap}
+.table-operation:hover,.table-operation:focus{text-decoration: underline;}
+
+/* 选中的菜单 */
+.sidebar-menu li a{padding: 12px 5px 12px 15px !important}
+.sidebar-menu li:not(.treeview).active a:after{margin-left: 8px;font: normal normal normal 14px/1 FontAwesome;content: "\f105"; font-size: 14px;color: #dd4b39;}
+
+/* 处理小屏幕顶部导航 */
+@media (max-width: 767px) {
+  .navbar-collapse {
+    margin-top: 50px;
+  }
+}
+
+/* 去除 awesome-bootstrap-checkbox outline */
+.radio input[type="radio"]:focus + label::before{outline:none;}
+/*.checkbox input[type="checkbox"]:focus + label::before{outline:none;}*/
+
+/* 显示单个错误提示 */
+.single-error{position: absolute; bottom: 45px; left: 0; right: 0; display: none;background: #ffebeb; color: #e4393c; border: 1px solid #faccc6; padding: 8px}
+
+/* layer 按钮互换 */
+.layui-layer-btn a {float: right}
+.layui-layer-btn:after {clear: both; content: ''; display:block}
+
+
+
+/* 主题颜色切换 */
+/* layer 按钮颜色 */
+.layui-layer-btn .layui-layer-btn0 {
+    border-color: #d73925 !important;
+    background-color: #dd4b39 !important;
+    color: #fff;
+}
+
+/* Pager */
+.laypageskin_default .laypage_curr {
+    background-color: #dd4b39 !important;
+    border-color: #dd4b39 !important;
+    color: #fff;
+    font-weight: 400;
+}
+
+/* Form */
+.form-control:focus{border-color: #d73925;}
+
+.form-control.error{border-color: #cc5965;border-style: dotted;}
+label.error{color:#cc5965;display:block;margin: 0 5px;clear: both}
+.row label.error{margin-left: 20px}
+
+/* Button */
+.btn-primary{background-color: #dd4b39;border-color: #d73925}
+.btn-primary:hover,.btn-primary:focus,.btn-primary:active:focus,.btn-primary:active,.btn-primary.hover{background-color:#d73925;border-color: #d73925}
+
+/* Radio */
+.radio-primary input[type="radio"] + label::after {
+  background-color: #d9534f;
+}
+.radio-primary input[type="radio"]:checked + label::before {
+  border-color: #d9534f;
+}
+.radio-primary input[type="radio"]:checked + label::after {
+  background-color: #d9534f;
+}
+
+/* Checkbox */
+.checkbox-primary input[type="checkbox"]:checked + label::before,
+.checkbox-primary input[type="radio"]:checked + label::before {
+  background-color: #d9534f;
+  border-color: #d9534f;
+}
+.checkbox-primary input[type="checkbox"]:checked + label::after,
+.checkbox-primary input[type="radio"]:checked + label::after {
+  color: #fff;
+}
+
+/* Nav tabs */
+.nav-tabs-custom>.nav-tabs>li.active {
+    border-top-color: #d9534f;
+}

@@ -1,0 +1,22 @@
+form[data-search]+.table-responsive{margin-top:10px !important}
+.vertical-middle{vertical-align:middle !important}
+.my-table{border:1px solid #f4f4f4}
+.my-table th{border-top:0 !important}
+.border-top-none, .border-top-none td{border-top:0 !important}
+.my-table td,.my-table th{vertical-align:middle !important}
+.table-col-checkbox,.table-col-order{width:8px;vertical-align:middle !important}
+.table-col-order input[type=text]{width:50px;text-align:center;height:22px;line-height:22px}
+.table-col-order button{width:50px}
+
+.table tr:first-child > th {
+    background-color: #f9f9f9;
+}
+
+img.thumb {height: 20px; cursor: pointer;}
+
+/** 手机盒子 */
+.phone-container {border: 1px solid #D7CA99; background: #fff;border-radius: 30px;left: 0;margin: 0 auto 0;padding: 70px 18px 68px 18px;position: absolute;right: 0;width:300px;}
+.phone-container:before {background: #000;border-radius: 20px;content: '';height: 8px;left: 0;margin: -35px auto;position: absolute;right: 0;width: 45px;}
+.phone-container:after {border: 1px solid #D7CA99; background: #fff;border-radius: 20px;content: "";display: block;height: 42px;left: 0;margin: 12px auto;position: absolute;right: 0;width: 42px;}
+.phone-screen {background: #d6e6e9;height: 408px;overflow: hidden;padding: 0;position: relative;border: 1px solid #D7CA99;}
+.phone-screen iframe{width:100%;height:100%;background:#fff}

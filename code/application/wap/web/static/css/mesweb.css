@@ -1,0 +1,151 @@
+
+/*底部导航*/
+.footer{ width:100%;position:fixed; left:0; bottom:0; z-index:999;}
+.footer>ul{width:100%; max-width:640px; min-width:320px; margin:0 auto; background:#b01837;}
+.footer>ul>li{ height:5rem;}
+.footer>ul>li a{ width:100%; height:1.8rem; padding-top:3.2rem; color:#f5f5f5;}
+.footer_li01>a{background:url(../img/footer01.png) no-repeat center 0.8rem;}
+.footer_li02>a{background:url(../img/footer02.png) no-repeat center 0.8rem;}
+.footer_li03>a{background:url(../img/footer03.png) no-repeat center 1rem; background-color:#c32545;}
+.footer_li04>a{background:url(../img/footer04.png) no-repeat center 0.8rem;}
+.footer_li05>a{background:url(../img/footer05.png) no-repeat center 0.8rem;}
+.footer_li01.sel>a{background:url(../img/footer06.png) no-repeat center 0.8rem;}
+.footer_li02.sel>a{background:url(../img/footer07.png) no-repeat center 0.8rem;}
+.footer_li03.sel>a{background:url(../img/footer08.png) no-repeat center 1rem;}
+.footer_li04.sel>a{background:url(../img/footer09.png) no-repeat center 0.8rem;}
+.footer_li05.sel>a{background:url(../img/footer10.png) no-repeat center 0.8rem;}
+.footer_li01.sel>a,.footer_li02.sel>a,.footer_li03.sel>a,.footer_li04.sel>a,.footer_li05.sel>a{ background-color:#f7d586; color:#960e2a;}
+.footer_li01>a,.footer_li02>a,.footer_li04>a,.footer_li05>a,.footer_li01.sel>a,.footer_li02.sel>a,.footer_li04.sel>a,.footer_li05.sel>a{background-size:2rem 2rem;}
+.footer .footer_li03>a{ width:100%; background-size:4.2rem 4.2rem; padding-top:5.7rem; border-top-left-radius:30rem; border-top-right-radius:30rem; position:absolute; top:-2.5rem; left:0;}
+
+
+/*登录、注册、找密码等*/
+.logo_div{padding-top:3rem;}
+.logo_img>img{ width:6rem;}
+.code_a{ height:3.1rem; overflow:hidden;}
+.code_a img{ width:100%; height:100%}
+.timespan{ min-height:4rem;}
+
+/*首页*/
+.index_package .index_pac_img{ display: box; display: -webkit-box; display: -moz-box; -webkit-box-pack:center; -moz-box-pack:center; -webkit-box-align:center; -moz-box-align:center; overflow:hidden; background:#343233;}
+.index_package .swiper-slide a{ display:inherit; background:none;}
+.index_package .swiper-slide{box-shadow:0px 0px 16px 2px #6f061b;}
+.index_pac_img img{ width:100%; height:100%;}
+.index_package .swiper-slide button{ background:#efbf75}
+.index_package .swiper-slide button[disabled]{background:#d1d1d1;}
+.index_rule>li{ height:4rem; line-height:4rem; border-radius:5px; margin-top:0.5rem; padding-left:3.8rem; padding-right:1rem;  background-position:0.5rem center; background-size:2.5rem 2.5rem; background-repeat:no-repeat; background-color:#d12448;}
+.index_rule>li:nth-child(2n){background-color:#b71637;}
+.index_rule>li:first-child{ background-image:url(../img/rule01.png);}
+.index_rule>li:nth-child(2){ background-image:url(../img/rule02.png);}
+.index_rule>li:nth-child(3){ background-image:url(../img/rule03.png);}
+.index_rule>li:nth-child(4){ background-image:url(../img/rule04.png);}
+.index_rule>li:nth-child(5){ background-image:url(../img/rule05.png);}
+.index_rule>li:nth-child(6){ background-image:url(../img/rule06.png);}
+.index_rule>li a{ height:4rem; line-height:4rem; padding-right:1.5rem; background:url(../img/more.png) no-repeat right center; background-size:1rem 1.8rem;}
+
+
+
+
+/*首页赌场板块、赌场、赌场详情*/
+.casino_search{ width:100%; position:fixed; left:0; top:5rem; z-index:99}
+.casino_search>div{ height:4.2rem; padding-top:1rem;}
+.casino_ul>li a{ min-height:7rem; padding:1rem 1rem 1rem 9rem; border-top:1px solid #474747;}
+.casino_img{ width:7rem; height:7rem; position:absolute; left:1rem; top:1rem; display: box; display: -webkit-box; display: -moz-box; -webkit-box-pack:center; -moz-box-pack:center; -webkit-box-align:center; -moz-box-align:center; overflow:hidden;}
+.casino_img>img{ width:100%; height:inherit;}
+.casino_ul>li h2{ min-height:1.6rem;}
+.casino_flag{ width:2.2rem; height:1.5rem; display:block; overflow:hidden; position:absolute; left:0; top:0;}
+.casino_flag>img{ width:100%; height:inherit; margin:0;}
+.casino_detail>img{ width:100%;}
+.casino_ranking{ width:2.2rem; height:2.8rem; display:block; position:absolute; right:1rem; top:0;}
+.index_casino li:first-child .casino_ranking{ background:url(../img/top_01.png) no-repeat left center; background-size:2.2rem 2.8rem;}
+.index_casino li:nth-child(2) .casino_ranking{ background:url(../img/top_02.png) no-repeat left center; background-size:2.2rem 2.8rem;}
+.index_casino li:nth-child(3) .casino_ranking{ background:url(../img/top_03.png) no-repeat left center; background-size:2.2rem 2.8rem;}
+.index_casino li:nth-child(4) .casino_ranking{ background:url(../img/top_04.png) no-repeat left center; background-size:2.2rem 2.8rem;}
+
+/*投资平台*/
+.invest_table td{ border-right:1px solid #fff;}
+.invest_table td:last-child{ border-right:none;}
+
+/*兑换中心*/
+.exchange_list{ width:4.5rem; height:5rem; background:url(../img/icon_list.png) no-repeat center center; background-size:2.5rem 2.5rem; position:absolute; right:0; top:0;}
+.exma_div{padding-top:3rem;}
+.exma_div>div{ padding:2rem 0 3rem 0; box-shadow:0px 0px 16px 5px #840c24;}
+
+/*个人中心*/
+.my_news{width:4.5rem; height:5rem; background:url(../img/news.png) no-repeat center center; background-size:2rem 1.8rem; position:absolute; right:0; top:0;}
+.my_top{ width:100%; height:7rem; position:fixed; left:0; top:5rem; z-index:99;}
+.my_top_in{ width:100%; height:7rem; max-width:640px; min-width:320px; margin:0 auto; padding:0 2rem; box-sizing:border-box;  border-bottom:1px solid #890625; background:url(../img/more.png) no-repeat 95% center; background-size:0.8rem 1.6rem; background-color:#960e2a;}
+.my_top_h{height:7rem;}
+.my_top_img{ width:6rem; padding-left:2rem;}
+.my_top_img span{ width:5rem; height:5rem; padding:0.1rem 0.5rem 0.8rem; box-sizing:border-box; display: box; display: -webkit-box; display: -moz-box; -webkit-box-pack:center; -moz-box-pack:center; -webkit-box-align:center; -moz-box-align:center; overflow:hidden;}
+.my_ul>li img{ width:2.5rem;}
+
+/*消息*/
+.news_ul>li>a>div{ background:#fff6e3}
+.news_ul>li>a>div h3{ color:#960e2a;}
+.news_ul>li>a>div p{ color:#666;}
+.news_ul>li.sel>a>div{background:#960e2a}
+.news_ul>li.sel>a>div h3{ color:#f5ce7f;}
+.news_ul>li.sel>a>div p{ color:#d5d5d5;}
+.news_read{ height:5rem; line-height:5rem; padding:0 1rem; position:absolute; right:0; top:0;}
+
+/*资料*/
+.data_top{width:100%; position:fixed; left:0; top:5rem; z-index:99}
+.data_top ul>li>a{ height:4rem; line-height:4rem;}
+.data_top ul>li.sel>a{ background:#f8d788; color:#960e2a;}
+.data_ul>li{border-bottom:1px solid #890625;}
+.data_ul>li a{background:url(../img/more.png) no-repeat right center; background-size:0.8rem 1.6rem; padding-right:1.5rem;}
+
+/*公司分、现金流水、分红、详情等*/
+.top_div{width:100%; position:fixed; left:0; top:5rem; z-index:99}
+.top_div>div{ height:5.5rem;}
+.top_div>table{ height:3rem; line-height:3rem;}
+.bottom_div{width:100%; position:fixed; left:0; bottom:0; z-index:99;}
+.bottom_div a{ height:3.5rem; line-height:3.5rem;}
+.bottom_div_h{height:3.5rem;}
+.list_div{ padding-right:8.3rem;}
+.list_time{ width:8rem;display:inline-block; position:absolute; right:0; top:0;}
+.list_table{word-spacing:2px;letter-spacing:-1px; line-height:18px;}
+.w-32{ width:32%;}
+.w-14{ width:14%;}
+.w-22{ width:22%;}
+
+/*常见问题*/
+.faq_li_div{ min-height:2rem; padding-left:3rem;}
+.faq_li_mun{ width:2rem; height:2rem; text-align: center; line-height:2rem; display:block; border-radius:50%; position:absolute; left:0; top:-0.3rem;}
+
+/*直推关系*/
+.direct_top{width:100%; position:fixed; left:0; top:10.2rem; z-index:99}
+.direct_top table{height:3rem; line-height:3rem;}
+
+/*我的配套*/
+.package_slecte{ position:absolute; left:0; top:0.8rem;}
+
+
+/*提现记录*/
+.record_select{width:100%; position:absolute; left:0rem; top:0.5rem; opacity:0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

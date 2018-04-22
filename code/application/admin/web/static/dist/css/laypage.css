@@ -1,0 +1,11 @@
+.laypage_total{padding:0 0 0 10px !important;border:none !important;margin-left:1px !important}
+.laypage_main a,.laypage_main input,.laypage_main span{height:26px;line-height:26px}
+.laypage_main button,.laypage_main input,.laypageskin_default a{border:1px solid #e2e2e2;background-color:#fff}
+.laypage_main{float:right;font-size:0;clear:both;color:#666;position:relative}
+.laypage_main *{display:inline-block;vertical-align:top;font-size:12px}
+.laypage_main a{text-decoration:none;color:#666}
+.laypage_main a,.laypage_main span{display:inline-block;vertical-align:middle;padding:0 11px;margin:0 -1px 0 0;color:#333;font-size:12px}
+.laypage_main input{width:40px;margin:0 5px;padding:0 5px}
+.laypage_main button{height:26px;line-height:26px;margin-left:5px;padding:0 8px;color:#666}
+.laypageskin_default span{color:#999;font-weight:700}
+.laypageskin_default .laypage_curr{background-color:#3c8dbc;border-color:#3c8dbc;color:#fff;font-weight:400}
